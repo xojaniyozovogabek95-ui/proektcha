@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: rgba(234, 0, 255, 0.77);
+    margin: 10px;
+    font-size: 20px;
+}
+button{
+    border-radius: 5px;
+    border: solid 0.5px white;
+    background-color: blue;
+    padding: 5px 10px;
+    color: rgb(55, 255, 0);
+    margin-left: 10px;
+    margin-top: 5px;
+}
