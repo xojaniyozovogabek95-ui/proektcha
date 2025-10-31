@@ -3,26 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    margin: 15px;
+
+body {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 100px;
 }
+
+/* .div2:nth-child(2), .div1:nth-child(2), .div:nth-child(2) {
+    margin: 10px 0;
+} */
+
+
 
 button {
     border-radius: 5px;
-    border: solid 0.5px white;
+    border: solid 0.5px blue;
     background-color: blue;
     padding: 5px 10px;
     color: rgb(55, 255, 0);
-    margin-left: 10px;
-    margin-top: 5px;
-}
-div{
-    width: 100px;
-    height: 100px;
-    margin: 15px;
- background-color: red;
+    box-shadow: 5px 5px 10px rgb(81, 82, 81);
+    /* margin-left: 10px; */
+    /* margin-top: 5px; */
 }
 
+div {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+
+.class{
+    margin: 10px 0 10px 0 ;
+    
+}
 /* .katta{
     width: 100px;
     height: 100px;
